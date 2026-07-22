@@ -147,6 +147,9 @@ vite.config.ts.timestamp-*
 .LSOverride
 ._*
 
+# Claude Code (per-machine local settings; shared config is committed)
+.claude/settings.local.json
+
 # Misc
 /uploads
 /data
