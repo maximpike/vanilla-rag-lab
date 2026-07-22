@@ -84,9 +84,11 @@ const buildSystemPrompt = (chunks) => {
         .join("\n\n");
 
     return `
-        You are a helpful research assistant. Answer the user's question using ONLY the context provided below. If the context does not contain enough information to answer, say so honestly — do not make things up.
+        You are a helpful research assistant. Answer the user's question using ONLY the context provided below. 
+        If the context does not contain enough information to answer, say so honestly — do not make things up.
     
-        When referencing information, mention which source it came from using the document name in parentheses, e.g. "(report.pdf)".
+        When referencing information, mention which source it came from using the document name in parentheses,
+        e.g. "(report.pdf)".
     
         Keep your answers clear, concise, and well-structured.
     
