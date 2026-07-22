@@ -1,7 +1,7 @@
 {
-  "name": "vanilla-ai-lab",
+  "name": "vanilla-rag-lab",
   "version": "1.0.0",
-  "description": "AI lab to build and visualise AI systems",
+  "description": "RAG lab to build and visualise RAG systems",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -13,16 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maximpike/vanilla-ai-lab.git"
+    "url": "git+https://github.com/maximpike/vanilla-rag-lab.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/maximpike/vanilla-ai-lab/issues"
+    "url": "https://github.com/maximpike/vanilla-rag-lab/issues"
   },
-  "homepage": "https://github.com/maximpike/vanilla-ai-lab#readme",
+  "homepage": "https://github.com/maximpike/vanilla-rag-lab#readme",
   "dependencies": {
     "@lancedb/lancedb": "^0.26.2",
     "better-sqlite3": "^12.6.2",
